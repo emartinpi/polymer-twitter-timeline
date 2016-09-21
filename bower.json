@@ -1,6 +1,6 @@
 {
-  "name": "polymer-twitter-statictimeline",
-  "main": "polymer-twitter-statictimeline.html",
+  "name": "polymer-twitter-timeline",
+  "main": "polymer-twitter-timeline.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0"
   },

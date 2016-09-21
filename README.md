@@ -1,4 +1,4 @@
-# \<polymer-twitter-statictimeline\>
+# \<polymer-twitter-timeline\>
 
 
 
