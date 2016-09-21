@@ -1,10 +1,11 @@
 <link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="widget-import.html">
 
 <!--
 `polymer-twitter-statictimeline`
 
 
-@demo demo/index.html 
+@demo demo/index.html
 -->
 
 <dom-module id="polymer-twitter-statictimeline">
@@ -14,21 +15,10 @@
         display: block;
       }
     </style>
-    <h2>Hello [[prop1]]</h2>
+
+    <div id="timeline"></div>
+
   </template>
 
-  <script>
-    Polymer({
-
-      is: 'polymer-twitter-statictimeline',
-
-      properties: {
-        prop1: {
-          type: String,
-          value: 'polymer-twitter-statictimeline',
-        },
-      },
-
-    });
-  </script>
+  <script src="polymer-twitter-statictimeline.js"></script>
 </dom-module>
