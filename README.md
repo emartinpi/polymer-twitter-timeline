@@ -1,38 +1,30 @@
 # \<polymer-twitter-timeline\>
 
+A custom polymer element for embedding a Twitter timeline (widget)
 
+## Install 
+
+```
+$ bower install --save https://github.com/emartinpi/polymer-twitter-timeline.git 
+```
+
+## Create a [Twitter widget for searching](https://twitter.com/settings/widgets/new) and get the id which is in the snippet
+
+The id will be used as attribute in polymer element
+
+```html
+<polymer-twitter-timeline
+            widget-id="..."></polymer-twitter-timeline>
+```
 
 ## Install the Polymer-CLI
 
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
+Make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
 
-## Viewing Your Application
+## Viewing Application and Demo
 
 ```
 $ polymer serve
 ```
 
-## Building Your Application
-
-```
-$ polymer build
-```
-
-This will create a `build/` folder with `bundled/` and `unbundled/` sub-folders
-containing a bundled (Vulcanized) and unbundled builds, both run through HTML,
-CSS, and JS optimizers.
-
-You can serve the built versions by giving `polymer serve` a folder to serve
-from:
-
-```
-$ polymer serve build/bundled
-```
-
-## Running Tests
-
-```
-$ polymer test
-```
-
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
+**See demo to know how to use it**
